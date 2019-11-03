@@ -1,0 +1,32 @@
+/*Element*/
+li{
+
+}
+/*class*/
+.hello{
+
+}
+/*id*/
+#name{
+
+}
+/*Star*/
+*{
+	border: 2px solid lightgray;
+}
+/*Descendant Selector 條件*/
+li a{
+	color: red;
+}
+/*Adjacent Selector 相鄰的*/
+h4 + ul{
+	border: 2px solid orange;
+}
+/*Attribute Selector 屬性*/
+a[href="http://www.google.com"] {
+	background: yellow;
+}
+/*nth of type*/
+li:nth-of-type(odd){
+	background: lightgreen;
+}
